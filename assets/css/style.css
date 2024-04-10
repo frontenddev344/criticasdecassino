@@ -397,3 +397,47 @@ section.how-it-work {
     color: #ffc107;
 }
 /* footer section css end here */
+/* casino page css start here */
+.casino-banner{
+    background-image: url(../images/about-bnr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px 100px 0;
+}
+.sub-bnr-txt h3 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sub-bnr-txt ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.sub-bnr-txt ul li{
+    font-size: 18px;
+    color: #fff;
+}
+.sub-bnr-txt ul li {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.sub-bnr-txt ul li a{
+    color: #ffc107;
+}
+.casino-txt-bx {
+    background-color: #22285a;
+    border-radius: 5px;
+    padding: 20px;
+}
+.casino-txt-bx p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+/* casino page css end here */
