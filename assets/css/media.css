@@ -1,9 +1,150 @@
+@media(max-width:1400px){
+    .banner-txt {
+        left: 40px;
+    }
+}
 @media(max-width:1200px){
     .nav-links ul li a {
         font-size: 16px;
     }
+    .banner-txt h3 {
+        font-size: 30px;
+    }
+    .banner-txt h2 {
+        font-size: 35px;
+    }
+    .contact-btn a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .cassino-logo img {
+        width: 100px;
+    }
+    .cassino-logo {
+        width: 22%;
+        height: 120px;
+    }
+    .cassino-dis span {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .cassino-dis p {
+        font-size: 16px;
+    }
+    .cassino-btn a {
+        font-size: 16px;
+    }
+    .cassino-btn {
+        width: 22%;
+    }
+    .site-heading h3 {
+        font-size: 32px;
+    }
+    .choose-img {
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .choose-txt h4 {
+        font-size: 22px;
+    }
+    .choose-txt p {
+        font-size: 14px;
+    }
+    .footer-logo img {
+        width: 250px;
+    }
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+    .copy-right p {
+        font-size: 14px;
+    }
+    .work-wrap {
+        padding: 50px 50px;
+    }
+    .work-card {
+        width: 45%;
+    }
+    .progress-count h5 {
+        font-size: 18px;
+    }
+    .sub-bnr-txt h3 {
+        font-size: 35px;
+    
+    }
+    .sub-bnr-txt ul li {
+        font-size: 16px;
+    }
+    .casino-txt-bx p {
+        font-size: 16px;
+    }
+    .casino-main-txt p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .casino-box {
+        height: 630px;
+    }
+    .srij-txt h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .srij-disc h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .sub-bnr-txt p {
+        font-size: 16px;
+    }
+    .mission-txt h3 {
+        font-size: 30px;
+    }
+    .mission-txt p {
+        font-size: 16px;
+    }
+    .mission-img img {
+        height: 300px;
+    }
+    .offer-txt h4 {
+        font-size: 22px;
+        min-height: 55px;
+    }
+    .offer-txt p {
+        font-size: 14px;
+        min-height: 221px;
+    }
+    .srij-disc h4 {
+        font-size: 20px;
+    }
+    .srij-disc p {
+        font-size: 16px;
+    }
+    .term-wrap h3 {
+        font-size: 22px;
+        margin: 12px 0;
+    }
+    .term-wrap p, .term-wrap ul li {
+        font-size: 14px;
+    }
 }
 @media(max-width:992px){
+    .term-wrap p, .term-wrap ul li {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .term-wrap h3 {
+        font-size: 18px;
+    }
+    .srij-disc ul li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .casino-main-txt p {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
     .toggle, .close {
         display: block;
     }
@@ -38,6 +179,50 @@
     .menuToggle .nav-links {
         transform: translateX(0%);
     }
+    .work-wrap {
+        padding: 40px 20px;
+    }
+    .work-middel {
+        width: 5%;
+    }
+  
+    .work-card p {
+        font-size: 14px;
+    }
+    .work-card h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .sub-bnr-txt h3 {
+        font-size: 30px;
+    }
+    .sub-bnr-txt p {
+        font-size: 16px;
+        width: 65%;
+    }
+    .mission-txt h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .mission-txt p {
+        font-size: 14px;
+    }
+    .mission-img img {
+        height: 250px;
+    }
+    .site-heading h3 {
+        font-size: 28px;
+    }
+    .offer-txt h4 {
+        font-size: 20px;
+        min-height: auto;
+    }
+    .offer-txt p {
+        min-height: 100px;
+    }
+    .offer-wrap {
+        margin-bottom: 25px;
+    }
 }
 @media(max-width:767px){
  
@@ -47,8 +232,189 @@
     .toggle i {
         font-size: 22px;
     }
+    .site-banner {
+        height: 70vh;
+    }
+    .banner-txt h3 {
+        font-size: 25px;
+    }
+    .banner-txt h2 {
+        font-size: 30px;
+    }
+    .contact-btn a {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 30px;
+    }
+    .featured-box {
+        padding: 10px 10px;
+        margin-bottom: 20px;
+    }
+    .ptb-70 {
+        padding: 50px 0;
+    }
+    .cassino-btn a {
+        font-size: 14px;
+    }
+    .cassino-btn {
+        width: 27%;
+    }
+    .cassino-dis {
+        width: 25%;
+    }
+    .cassino-logo img {
+        width: 60px;
+    }
+    .cassino-logo {
+        width: 25%;
+        height: 90px;
+    }
+    .cassino-dis p {
+        font-size: 14px;
+    }
+    .cassino-dis span {
+        margin-bottom: 2px;
+    }
+    .site-heading h3 {
+        font-size: 28px;
+    }
+    .choose-box {
+        margin-top: 30px;
+    }
+    .choose-img {
+        height: 60px;
+        width: 70px;
+        padding: 5px;
+    }
+    .choose-txt h4 {
+        font-size: 20px;
+    }
+    .work-wrap {
+        padding: 30px 0px;
+    }
+    .work-card p {
+        font-size: 13px;
+    }
+    .work-card h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .progress-count h5 {
+        padding: 7px;
+        font-size: 16px;
+    }
+    .work-box {
+        height: 280px;
+    }
+    .footer-links ul {
+        gap: 12px;
+    }
+    .ptb-50 {
+        padding: 30px 0;
+    }
+    .footer-logo img {
+        width: 200px;
+    }
+    .footer-links {
+        margin: 15px 0;
+    }
+    .copy-right p {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .sub-bnr-txt h3 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .sub-bnr-txt ul li {
+        font-size: 16px;
+    }
+    .casino-banner {
+        padding: 140px 0px 85px 0;
+    }
+    .casino-txt-bx p {
+        font-size: 14px;
+    }
+    .casino-box {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .casino-img {
+        height: 400px;
+    }
+    .casino-left {
+        height: 100%;
+        width: 100%;
+    }
+    .casino-rght {
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+    }
+    .casino-cont {
+        margin-bottom: 70px;
+        margin-top: 70px;
+        background: #fff;
+    }
+    .casino-main-txt {
+        box-shadow: none;
+        background: #ffffff;
+    }
+    .srij-txt h3 {
+        font-size: 22px;
+    }
+    .srij-disc h4 {
+        font-size: 20px;
+    }
+    .contact-btn a::before {
+        top: 3px;
+        left: 3px;
+    }
+    .casino-banner {
+        padding: 100px 0px 60px 0;
+    }
+    .sub-bnr-txt h3 {
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    .sub-bnr-txt ul li {
+        font-size: 14px;
+    }
+    .casino-txt-bx {
+        padding: 15px;
+    }
+    .sub-bnr-txt p {
+        font-size: 14px;
+        width: 90%;
+    }
+    .mission-img img {
+        margin-bottom: 10px;
+    }
+    .mission-txt h3 {
+        font-size: 22px;
+    }
+    .what-we-offer .row {
+        margin-top: 30px;
+    }
+    .offer-txt h4 {
+        font-size: 18px;
+    }
+    .offer-txt p {
+        min-height: auto;
+    }
+    .srij-disc p {
+        font-size: 14px;
+    }
 }
-@media(max-width:575px){
+@media(max-width:576px){
+    .mission-txt h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .mission-img img {
+        height: 200px;
+    }
     .nav-links ul li a {
         font-size: 14px;
     }
@@ -66,5 +432,90 @@
     }
     .toggle i {
         font-size: 20px;
+    }
+    .banner-txt h3 {
+        font-size: 22px;
+    }
+    .banner-txt {
+        left: 10px;
+    }
+    .banner-txt h2 {
+        font-size: 23px;
+    }
+    .contact-btn a {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .site-banner {
+        height: 60vh;
+    }
+    .featured-box {
+        flex-wrap: wrap;
+    }
+    .cassino-logo {
+        width: 100%;
+        height: 100px;
+    }
+    .cassino-dis {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .cassino-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    .cassino-btn a {
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+    .site-heading h3 {
+        font-size: 22px;
+    }
+    .choose-img {
+        height: 50px;
+        width: 50px;
+        padding: 0px;
+    }
+    .choose-txt h4 {
+        font-size: 18px;
+    }
+    .work-box {
+        height: auto;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .work-middel {
+        width: 0%;
+        display: none;
+    }
+    .work-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .work-card h4 {
+        font-size: 18px;
+    }
+    .casino-img {
+        height: 250px;
+    }
+    .casino-main-txt {
+        padding: 15px;
+    }
+    .srij-txt h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .srij-disc h4 {
+        font-size: 18px;
+    }
+    .footer-links ul li a {
+        font-size: 13px;
+    }
+    .sub-bnr-txt h3 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .term-wrap h3 {
+        font-size: 16px;
     }
 }

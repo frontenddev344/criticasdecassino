@@ -101,10 +101,13 @@ img{
     height: 90vh;
     position: relative;
 }
+.fixed-header{
+    background-color: #111746;
+}
 .banner-txt{
     position: absolute;
     top: 50%;
-    left: 30px;
+    left: 13%;
     transform: translateY(-25%);
 }
 .banner-txt h3{
@@ -233,6 +236,7 @@ img{
     font-weight: 700;
     text-shadow: 2px 2px 2px rgb(183 0 18);
     color: #fff;
+    text-transform: uppercase;
 }
 .choose-wrap {
     /* border: 1px solid #ffffff40; */
@@ -242,7 +246,7 @@ img{
     border-radius: 10px;
 height: 100%;
 }
-.choose-box .col-md-4{
+.choose-box .col-md-6{
     margin-bottom: 20px;
 }
 .choose-wrap:hover{
@@ -440,4 +444,177 @@ section.how-it-work {
     margin-bottom: 0;
     font-size: 18px;
 }
+
+.casino-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 650px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.casino-cont{
+    margin-bottom: 70px;
+
+}
+.casino-left {
+    height: 100%;
+    width: 50%;
+}
+.casino-img {
+    height: 100%;
+    margin-bottom: 20px;
+}
+.casino-img img {
+    height: 100%;
+    object-fit: cover;
+}
+.casino-rght {
+    width: 48%;
+    height: 100%;
+}
+section.casino-main {
+    background-color: #0a0e35;
+}
+.casino-btn {
+    position: relative;
+    z-index: 9;
+}
+.casino-main-txt p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.casino-main-txt {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background: #ededed;
+    height: 100%;
+    margin-bottom: 15px;
+}
+.casino-logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pay-logo {
+    width: 60px;
+}
+.pay-logo img {
+    filter: brightness(0) invert(0);
+}
+.casino-btn .contact-btn {
+    margin-top: 15px;
+}
+/* srj-sec section css start here */
+.srj-sec{
+    background-color: #0a0e35;
+}
+.srij-txt h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.srij-disc h4 {
+    font-size: 25px;
+    color: #d5d5d5;
+    margin-bottom: 15px;
+}
+.srij-disc ul li {
+    font-size: 16px;
+    color: #ffffffab;
+    margin-bottom: 10px;
+}
+.srij-disc ul {
+    list-style: disc;
+    padding-left: 20px;
+}
 /* casino page css end here */
+/* about us page css start here */
+.sub-bnr-txt p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.mission-txt h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.mission-txt p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #ffffff9c;
+}
+.mission-img img {
+    height: 350px;
+    object-fit: cover;
+}
+.our-mission{
+    background-color: #0a0e35;
+}
+.what-we-offer {
+    background-image: url(../images/section-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: block; */
+}
+.offer-wrap {
+    background-color: #0a0e35;
+    border-radius: 5px;
+}
+.offer-txt h4 {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    min-height: 65px;
+}
+.offer-txt p{
+ font-size: 16px;
+ line-height: 1.2;
+ color: #f3f3f3d1;   
+ min-height: 200px;
+}
+.offer-txt {
+    padding: 10px 15px;
+}
+.offer-img img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.what-we-offer .row {
+    margin-top: 50px;
+}
+.srij-disc p{
+    font-size: 18px;
+    color: #f3f3f3d1;   
+}
+/* about us page css end here */
+/* term page css start here */
+.term-main{
+    background-color: #0a0e35;
+
+}
+.term-wrap h3 {
+    font-size: 25px;
+    color: #fff;
+    margin: 15px 0;
+}
+.term-wrap p, .term-wrap ul li{
+    font-size: 16px;
+    color: #f3f3f3d1;  
+    margin-bottom: 10px;
+}
+.term-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* term page css end here */
