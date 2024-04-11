@@ -406,6 +406,9 @@
     .srij-disc p {
         font-size: 14px;
     }
+    #cookies-popup p {
+        font-size: 13px;
+    }
 }
 @media(max-width:576px){
     .mission-txt h3 {

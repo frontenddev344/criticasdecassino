@@ -638,3 +638,37 @@ section.casino-main {
 }
 
 /* term page css end here */
+
+/* cookies css star here */
+#cookies-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#0a0e35;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    /* display: none; */
+}
+
+#cookies-popup p {
+    margin: 0;
+    color: #fff;
+}
+
+#accept-cookies {
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#accept-cookies:hover {
+    background-color: #7e6619;
+}
+
+/* cookies css end here */
