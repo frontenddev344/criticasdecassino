@@ -683,3 +683,23 @@ section.casino-main {
 }
 
 /* cookies css end here */
+.about-bnr{
+    background-image: url(../images/about-bnr2.jpg);
+    position: relative;
+}
+.sports-bnr{
+    background-image: url(../images/sports-bnrr.jpg);
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0a0e35;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.sub-bnr-txt {
+    position: relative;
+}
