@@ -2,8 +2,21 @@
     .banner-txt {
         left: 40px;
     }
+    .casino-main-txt p {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .contact-btn a {
+        font-size: 16px;
+    }
+    .offer-txt p {
+        min-height: 230px;
+    }
 }
 @media(max-width:1200px){
+    .casino-btn {
+        margin-top: 20px;
+    }
     .nav-links ul li a {
         font-size: 16px;
     }
@@ -80,12 +93,9 @@
     .casino-txt-bx p {
         font-size: 16px;
     }
-    .casino-main-txt p {
-        font-size: 16px;
-        margin-bottom: 8px;
-    }
+   
     .casino-box {
-        height: 630px;
+        height: 680px;
     }
     .srij-txt h3 {
         font-size: 25px;
@@ -152,6 +162,9 @@
         gap: 30px;
         align-items: flex-start;
         flex-direction: column;
+    }
+    .casino-btn {
+        margin-top: 30px;
     }
     .nav-links {
         position: absolute;
@@ -222,6 +235,22 @@
     }
     .offer-wrap {
         margin-bottom: 25px;
+    }
+}
+@media(max-width:850px){
+    .casino-box {
+        height: auto;
+        flex-direction: column;
+    }
+    .casino-left {
+        height: 400px;
+        width: 100%;
+    }
+    .casino-rght {
+        width: 100%;
+    }
+    .casino-cont:nth-child(2) .casino-box, .casino-cont:nth-child(4) .casino-box{
+        flex-direction: column-reverse;
     }
 }
 @media(max-width:767px){
@@ -368,8 +397,8 @@
         font-size: 20px;
     }
     .contact-btn a::before {
-        top: 3px;
-        left: 3px;
+        top: 2px;
+        left: 2px;
     }
     .casino-banner {
         padding: 100px 0px 60px 0;
@@ -409,8 +438,12 @@
     #cookies-popup p {
         font-size: 13px;
     }
+   
 }
 @media(max-width:576px){
+    .work-box:nth-child(2), .work-box:nth-child(4), .work-box:nth-child(6)  {
+        flex-direction: column-reverse;
+    }
     .mission-txt h3 {
         font-size: 20px;
         margin-bottom: 10px;
@@ -499,7 +532,9 @@
         font-size: 18px;
     }
     .casino-img {
-        height: 250px;
+        /* height: 250px; */
+        height: 450px;
+        margin-bottom: 0px;
     }
     .casino-main-txt {
         padding: 15px;
@@ -520,5 +555,8 @@
     }
     .term-wrap h3 {
         font-size: 16px;
+    }
+    .casino-txt-bx p, .casino-main-txt p, .offer-txt p, .mission-txt p, .work-card p, .choose-txt p, .term-wrap p, .term-wrap ul li {
+        text-align: justify;
     }
 }
