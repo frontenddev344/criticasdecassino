@@ -12,6 +12,9 @@
     .offer-txt p {
         min-height: 230px;
     }
+    .casino-box {
+        height: 650px;
+    }
 }
 @media(max-width:1200px){
     .casino-btn {
