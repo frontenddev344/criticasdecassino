@@ -618,7 +618,10 @@ section.casino-main {
     height: 100%;
     margin-bottom: 15px;
 }
-
+.casino-main-txt img {
+    width: 250px;
+    margin: 20px 0;
+}
 .casino-logo {
     display: flex;
     gap: 5px;
@@ -633,6 +636,7 @@ section.casino-main {
 
 .pay-logo img {
     filter: brightness(0) invert(0);
+    width: 60px;
 }
 
 .casino-btn .contact-btn {
