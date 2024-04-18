@@ -619,8 +619,8 @@ section.casino-main {
     margin-bottom: 15px;
 }
 .casino-main-txt img {
-    width: 250px;
-    margin: 20px 0;
+    width: 200px;
+    height: 70px;
 }
 .casino-logo {
     display: flex;
