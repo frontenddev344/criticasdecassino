@@ -291,7 +291,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    object-fit: cover;
+    height: 230px;
     background-color: #000;
     margin-bottom: 18px;
 }
