@@ -608,6 +608,7 @@ section.casino-main {
     color: #000;
     margin-bottom: 10px;
 }
+
 .casino-main-txt h3 {
     color: #ca000e;
 }
@@ -617,10 +618,9 @@ section.casino-main {
     background: #ededed;
     height: 100%;
     margin-bottom: 15px;
-}
-.casino-main-txt img {
-    width: 200px;
-    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .casino-logo {
     display: flex;
@@ -630,13 +630,21 @@ section.casino-main {
     flex-wrap: wrap;
 }
 
+.casino-main-txt>img {
+    max-width: 150px;
+    margin: 0 0 20px;
+    aspect-ratio: 1/0.3;
+    object-fit: fill;
+    filter: brightness(0.5);
+}
+
 .pay-logo {
-    width: 60px;
+    width: auto;
 }
 
 .pay-logo img {
     filter: brightness(0) invert(0);
-    width: 60px;
+    max-width: 60px;
 }
 
 .casino-btn .contact-btn {
