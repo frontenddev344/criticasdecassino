@@ -876,3 +876,12 @@ section.casino-main {
 .casino-main-txt .casino-logo img {
     filter: revert;
 }
+img.apple_pay_img {
+    filter: invert(1)!important;
+}
+img.mypay_safe_card {
+    filter: brightness(0.1)!important;
+}
+.betano_2{
+    filter: invert()!important;
+}
