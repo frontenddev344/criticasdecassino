@@ -863,3 +863,12 @@ section.casino-main {
 .topcontent p {
     color: #fff;
 }
+
+
+.main-txt-blue {
+    background: #22285a!important;
+    box-shadow: unset!important;
+}
+.main-txt-blue p {
+    color: #fff!important;
+}
