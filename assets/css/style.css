@@ -865,10 +865,14 @@ section.casino-main {
 }
 
 
-.main-txt-blue {
+.casino-main-txt {
     background: #22285a!important;
     box-shadow: unset!important;
 }
-.main-txt-blue p {
+.casino-main-txt p {
     color: #fff!important;
+}
+
+.casino-main-txt .casino-logo img {
+    filter: revert;
 }
