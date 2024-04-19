@@ -632,7 +632,7 @@ section.casino-main {
 .casino-main-txt>img {
     max-width: 150px;
     margin: 0 0 20px;
-    aspect-ratio: 1/0.3;
+    aspect-ratio: 1/0.4;
     object-fit: fill;
     background: #63625b;
 
